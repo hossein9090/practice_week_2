@@ -1,0 +1,16 @@
+stri=""
+
+for i in range (1,11):
+    stri+="\n"
+    for j in range(1,11):
+        stri+=str(i*j)
+        if len(str(i*j))==2:
+            stri+="   "
+        else:
+            stri+="    "
+
+
+
+print(stri)
+
+
