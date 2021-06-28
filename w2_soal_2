@@ -1,0 +1,13 @@
+i=200
+list1=[]
+
+for j in range(181):
+    if i%3 !=0:
+        if i%5==0:
+            list1.append(i)
+    if i>=20:
+        i-=1
+    continue
+
+print(list1)
+
